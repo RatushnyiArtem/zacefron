@@ -25,7 +25,7 @@
 .site{
     max-width: 1920px;
     margin: 0 auto;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 body{
     background: #000000;
@@ -397,6 +397,7 @@ body{
 }
 .life_thing{
     margin-bottom: 70px;
+    min-width: 1920px;
 }
 
 .life_main_text{
@@ -409,6 +410,8 @@ body{
 }
 .slider{
     width: 100%;
+    max-width: 1920px;
+    min-width: 1920px;
     overflow: hidden;
     display: flex;
 }
@@ -665,6 +668,7 @@ body{
     margin-bottom: 200px;
     /* height: 1200px; */
     /* padding-right: 30px; */
+    min-width: 1920px;
 }
 /* .hidden{
     opacity: 0;
@@ -888,6 +892,7 @@ body{
 }
 .partners{
     margin-bottom: 300px;
+    min-width: 1920px;
 }
 .partners_main_text{
     text-align: center;
@@ -1085,4 +1090,13 @@ body{
 .cube:hover i{
     opacity: 1;
     color: #FF5C00;
+}
+
+@media (max-width:800px) {
+    .site{
+        overflow: scroll;
+    }
+    .dots-wrapper{
+        margin: 0 auto;
+    }
 }
