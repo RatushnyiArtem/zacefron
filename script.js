@@ -38,6 +38,17 @@ $(document).ready(function(){
         $('.email').toggleClass('active')
     });
 });
+$(document).ready(function(){
+    $('.burger').click(function(event){
+        $('.burger, .burger_list').toggleClass('active')
+    });
+});
+$(document).ready(function(){
+    $('.scorp').click(function shutting(event){
+        $('.burger, .burger_list').removeClass('active')
+    });
+});
+
 
 
 // let main = document.getElementById('slidehunt');
